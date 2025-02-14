@@ -12,7 +12,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
     }
     `}>
 
-        <button className = "absolute top-6 right-6 text-white text-3xl focus:outline-none-cursor-pointer">
+        <button onClick={() => setMenuOpen(false)} className = "absolute top-6 right-6 text-white text-3xl focus:outline-none-cursor-pointer">
             &times; 
 
         </button>
